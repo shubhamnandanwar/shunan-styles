@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="light_divider">#EEEEEE</color>
+
+    <color name="text_color">#212121</color>
+    <color name="primary_text">#212121</color>
+    <color name="anti_primary_text">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="secondary_text">#757575</color>
+    <color name="light_primary_dark_white">#3F51B5</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="delete_red">#f44336</color>
+
+    <color name="primary_light">#C5CAE9</color>
+
+    <color name="divider">#BDBDBD</color>
+
+    <color name="screen_grey">#F7F7F7</color>
+
+    <color name="grad_1">#6253E1</color>
+    <color name="grad_2">#25AAE1</color>
+</resources>

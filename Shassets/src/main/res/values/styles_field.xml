@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<style name="Field">
+		<item name="android:backgroundTint">@color/screen_grey</item>
+		<item name="android:background">@drawable/round_8</item>
+		<item name="android:textColor">@color/primary_text</item>
+		<item name="android:layout_width">96dp</item>
+		<item name="android:layout_height">32dp</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:paddingLeft">8dp</item>
+		<item name="android:paddingRight">8dp</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+		<item name="android:includeFontPadding">false</item>
+		<item name="android:textColorHint">@color/secondary_text</item>
+	</style>
+	
+	<style name="Field.Outline">
+		<item name="android:layout_width">120dp</item>
+		<item name="android:layout_height">36dp</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:background">@drawable/round_outline_6</item>
+		<item name="android:backgroundTint">@color/divider</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+	</style>
+	
+	<style name="Field.Solid">
+		<item name="android:layout_width">120dp</item>
+		<item name="android:layout_height">36dp</item>
+		<item name="android:maxLines">1</item>
+		<item name="android:textSize">15sp</item>
+		<item name="android:background">@drawable/round_8</item>
+		<item name="android:backgroundTint">@color/light_divider</item>
+		<item name="android:ellipsize">end</item>
+		<item name="android:gravity">center_vertical|center_horizontal</item>
+	</style>
+	
+	<style name="Field.Large">
+		<item name="android:layout_width">96dp</item>
+		<item name="android:layout_height">40dp</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	
+	<style name="Field.ExtraLarge">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:minHeight">48dp</item>
+		<item name="android:textSize">16sp</item>
+		<item name="android:gravity">start|center_vertical</item>
+		<item name="android:paddingLeft">16dp</item>
+		<item name="android:paddingRight">16dp</item>
+		<item name="android:paddingTop">6dp</item>
+		<item name="android:paddingBottom">6dp</item>
+	</style>
+	
+	<style name="Field.Small">
+		<item name="android:layout_width">48dp</item>
+		<item name="android:layout_height">28dp</item>
+		<item name="android:textSize">14sp</item>
+	</style>
+
+</resources>

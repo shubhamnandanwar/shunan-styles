@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Circle">
+        <attr name="cir_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundTextView">
+        <attr name="stroke_width" format="dimension" />
+        <attr name="draw_outline" format="boolean" />
+        <attr name="left_top_radius" format="dimension" />
+        <attr name="left_bottom_radius" format="dimension" />
+        <attr name="right_bottom_radius" format="dimension" />
+        <attr name="right_top_radius" format="dimension" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="tint_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="OutlinedButton">
+        <attr name="ob_stroke_width" format="dimension" />
+        <attr name="ob_corner_radius" format="dimension" />
+        <attr name="ob_tint" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="OutlinedTextView">
+        <attr name="otv_stroke_width" format="dimension" />
+        <attr name="otv_corner_radius" format="dimension" />
+        <attr name="otv_tint" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ContainedButton">
+        <attr name="cb_corner_radius" format="dimension" />
+        <attr name="cb_tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundView">
+        <attr name="rv_corner_radius" format="dimension" />
+        <attr name="rv_tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rll_corner_radius" format="dimension" />
+        <attr name="rll_tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rrl_corner_radius" format="dimension" />
+        <attr name="rrl_tint" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="OutlineLinearLayout">
+        <attr name="oll_corner_radius" format="dimension" />
+        <attr name="oll_tint" format="color" />
+        <attr name="oll_stroke_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="OutlineRelativeLayout">
+        <attr name="orl_corner_radius" format="dimension" />
+        <attr name="orl_tint" format="color" />
+        <attr name="orl_stroke_width" format="dimension" />
+    </declare-styleable>
+
+</resources>
